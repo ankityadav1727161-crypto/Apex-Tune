@@ -58,13 +58,13 @@ val hasReleaseSigningConfig =
         releaseKeyAlias != null &&
         releaseKeyPassword != null
 android {
-    namespace = "com.Harsh.apextune."
+    namespace = "moe.rukamori.archivetune"
     compileSdk = 37
     ndkVersion = "30.0.16248370"
     compileSdkMinor = 2
 
     defaultConfig {
-    applicationId = "com.Harsh.apextune."
+    applicationId = "com.Harsh.apextune"
         minSdk = 26
         targetSdk = 37
         versionCode = 142
